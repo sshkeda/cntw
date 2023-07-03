@@ -1,0 +1,34 @@
+{
+  "name": "cntw",
+  "version": "1.0.0",
+  "description": "A simple JavaScript utility for conditionally joining Tailwind CSS classes together.",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "css",
+    "cn",
+    "classes",
+    "classname",
+    "classnames",
+    "merge",
+    "conflict",
+    "override",
+    "clsx",
+    "tailwind-merge"
+  ],
+  "author": "Stephen Shkeda <stephenshkeda@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.13.2"
+  }
+}
